@@ -55,3 +55,15 @@ AI powered rescue drone project created for competitions Millennium and Leonardo
 - `cv2.putText(resized_frame, 'Person', (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)`  
   ყუთის ზემოთ ვამატებთ ტექსტს "Person", რათა დავახასიათოთ, რა არის ამ ყუთში.  
   ტექსტის ზომა, ფერი და სისქე არის განსაზღვრული ბოლოში.
+
+
+---
+
+- რომ იმუშავოს საჭიროა YOLO v5-ს ჩაწერა
+
+  `git clone https://github.com/ultralytics/yolov5`
+
+  `cd yolov5`
+
+  `pip install -r requirements.txt`
+
